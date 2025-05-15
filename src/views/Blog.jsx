@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../components/Nav';
 import { MdNavigateNext } from "react-icons/md";
+// import './Blog.css';
 
 function Blog() {
     return (
@@ -23,6 +24,7 @@ function Blog() {
                     </span>
                 </div>
             </div>
+            <br />
             <div className='shh'>
                 <div>
                     <img src="images/blog-01.jpg" alt="" />
@@ -88,108 +90,6 @@ function Blog() {
                     </form>
                 </div>
                 <br />
-                <footer>
-                    <div class="er">
-                        <div class="col-sm-6 col-lg-3 p-b-50">
-                            <h4 class="stext-301 cl0 p-b-30">
-                                Categories
-                            </h4>
-
-                            <ul>
-                                <li class="p-b-10">
-                                    <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                                        Women
-                                    </a>
-                                </li>
-
-                                <li class="p-b-10">
-                                    <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                                        Men
-                                    </a>
-                                </li>
-
-                                <li class="p-b-10">
-                                    <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                                        Shoes
-                                    </a>
-                                </li>
-
-                                <li class="p-b-10">
-                                    <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                                        Watches
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-sm-6 col-lg-3 p-b-50">
-                            <h4 class="stext-301 cl0 p-b-30">
-                                Help
-                            </h4>
-
-                            <ul>
-                                <li class="p-b-10">
-                                    <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                                        Track Order
-                                    </a>
-                                </li>
-
-                                <li class="p-b-10">
-                                    <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                                        Returns
-                                    </a>
-                                </li>
-
-                                <li class="p-b-10">
-                                    <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                                        Shipping
-                                    </a>
-                                </li>
-
-                                <li class="p-b-10">
-                                    <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                                        FAQs
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-sm-6 col-lg-3 p-b-50">
-                            <h4 class="stext-301 cl0 p-b-30">
-                                GET IN TOUCH
-                            </h4>
-
-                            <p class="stext-107 cl7 size-201">
-                                Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
-                            </p>
-
-                            <div class="p-t-27">
-                                <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-
-                                <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-
-                                <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                                    <i class="fa fa-pinterest-p"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tyu">
-                        <div class="insta"><i class="bi bi-instagram"></i></div>
-                        <div class="face"><i class="bi bi-facebook"></i></div>
-                        <div class="twitter"><i class="bi bi-twitter-x"></i></div>
-                        <div class="linkedin"><i class="bi bi-linkedin"></i></div>
-                    </div>
-                    <div class="mlp">
-                        <div class="last"><h3>2025 COZA STORE PVT.LTD.</h3></div>
-                        <div class="COUNTR"><h4>Country India</h4></div>
-
-                    </div>
-                </footer>
             </div>
         </>
     )
